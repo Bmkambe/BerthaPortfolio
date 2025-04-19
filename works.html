@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+
+  <!-- ** Basic Page Needs ** -->
+  <meta charset="utf-8">
+  <title>Bertha Mkambe</title>
+
+  <!-- Essential Stylesheets -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i|Open+Sans:400,600,700,800">
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/animate.css">
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  <link rel="stylesheet" href="plugins/themefisher-fonts/css/themefisher-fonts.min.css">  
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Theme Stylesheet -->
+  <link rel="stylesheet" href="#" id="color-changer">
+  
+  <!--Favicon-->
+  <link rel="icon" href="images/BC.png" type="image/x-icon">
+
+<style>
+  body {
+      font-family: sans-serif;
+      margin: 40px;
+      background-color: #ffffff;
+      color: #000000;
+  }
+
+  .timeline-container {
+      position: relative;
+      max-width: 500px;
+      margin: 0 auto;
+  }
+
+  .timeline-block {
+      padding: 20px;
+      margin-bottom: 30px;
+      background-color: #f8eeec;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px #000000;
+      position: relative;
+  }
+
+  .timeline-block::before {
+      content: '';
+      position: absolute;
+      left: -15px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 0;
+      height: 0;
+      border-top: 15px solid transparent;
+      border-bottom: 15px solid transparent;
+      border-right: 15px solid #fff;
+  }
+
+  .timeline-block h3 {
+      color: #000000; /* A bold color for job title */
+      margin-bottom: 5px;
+      font-style: bold;
+  }
+
+  .timeline-block h4 {
+      color: #727070; /* For company name */
+      margin-bottom: 5px;
+      font-style: italic;
+  }
+
+  .timeline-block .duration {
+      color: #777; /* For employment period */
+      font-size: 0.94em;
+      margin-bottom: 10px;
+  }
+
+  .timeline-block ul {
+      list-style: disc;
+      margin-left: 20px;
+      padding-left: 0;
+  }
+
+  /* The "connector" line */
+  .timeline-container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      margin-left: -2px; /* Adjust to align */
+      width: 4px;
+      background-color: #800080; /* Bold connector color */
+      opacity: 0.88;
+  }
+
+  /* Circle markers */
+  .timeline-block::after {
+      content: '';
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      border-radius: 80%;
+      background-color: #800080;
+      left: -20px; /* Adjust to align with the line */
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 1;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+      .timeline-container::before {
+          left: 0;
+          margin-left: 0;
+      }
+
+      .timeline-block {
+          margin-left: 15px;
+      }
+
+      .timeline-block::before {
+          border-right: none;
+          border-left: 15px solid #fff;
+          left: -15px;
+      }
+
+      .timeline-block::after {
+          left: -5px;
+      }
+  }
+</style>
+</head>
+<body>
+
+  <div class="preloader">
+    <div class="loading-mask"></div>
+    <div class="loading-mask"></div>
+    <div class="loading-mask"></div>
+    <div class="loading-mask"></div>
+    <div class="loading-mask"></div>
+  </div>
+
+  <div class="page-title text-center">
+    <h2>My <span class="primary"> Experience</span> <span class="title-bg">Work</span></h2>
+    <p>A highlight of my 4 year experience working as a professional in graphic design, public relations, journalism, digital marketing and website development </p>
+  </div>
+
+  <div class="timeline-container">
+    <div class="timeline-block">
+      <h3>Freelancer</h3>
+      <h4>Pwaniteknowgalz- Ajira4She</h4>
+      <p class="duration">Nov 2024 - Present</p>
+      <ul>
+        <li>Graphic design</li>
+        <li>Branding</li>
+        <li>Frontend web development</li>
+        <li>Social media management</li>
+      </ul>
+    </div> 
+
+   <div class="timeline-block">
+      <h3>Communications Volunteer</h3>
+      <h4>Kenya Maritime Authority</h4>
+      <p class="duration">September 2024 - December 2024</p>
+      <ul>
+        <li>Graphic design</li>
+        <li>Event branding</li>
+        <li>Photography and videography</li>
+        <li>Script and content writing</li>
+        <li>Social media analysis</li>
+        <li>Front desk assistant</li>
+      </ul>
+   </div>
+
+   <div class="timeline-block">
+    <h3>Public Relations Intern</h3>
+    <h4>St John Ambulance Kenya</h4>
+    <p class="duration">May 2024 - July 2024</p>
+    <ul>
+      <li>Graphic design</li>
+      <li>Event branding</li>
+      <li>Photography and videography</li>
+      <li>Script and content writing</li>
+      <li>Social media management</li>
+    </ul>
+  </div> 
+
+   <div class="timeline-block">
+      <h3>Journalism and Communications Attachee/ Volunteer</h3>
+      <h4>Pan Africa Christian University Studio</h4>
+      <p class="duration">May 2023 - December 2023</p>
+      <ul>
+        <li>Graphic design</li>
+        <li>Blog management</li>
+        <li>Design, Edit and Publish the Newsletter</li>
+        <li>Videography and photography production</li>
+        <li>Technical assistant in Television and Radio studio</li>
+        <li>News gathering, writing and reporting</li>
+     </ul>
+    </div>
+
+    <div class="timeline-block">
+      <h3>Digital Marketing</h3>
+      <h4>Ujuzi Hub- AIESEC Initiative of Technology Trend Series</h4>
+      <p class="duration">August 2022- October 2022</p>
+      <ul>
+        <li>Brand management</li>
+        <li>Data analysis</li>
+        <li>Social Media management</li>
+      </ul>
+    </div>
+  </div> 
+
+</div>
+
+
+<nav class="page-nav clear">
+  <div class="container">
+    <div class="flex flex-middle space-between">
+      <span class="prev-page"><a href="about.html" class="link">&larr; Prev </a></span>
+      <span class="next-page"><a href="gallery.html" class="link">Next &rarr;</a></span>
+    </div>
+  </div>
+  <!-- /.page-nav -->
+</nav>
+
+  </div> <!--c/.container-->
+</section> <!-- /.site-wrapper -->
+
+
+<!-- 
+Essential Scripts
+=====================================-->
+<script src="plugins/jquery-2.2.4.min.js"></script>
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<script src="plugins/jquery.nicescroll.min.js"></script>
+<script src="plugins/isotope/isotope.pkgd.min.js"></script>
+<script src="plugins/slick/slick.min.js"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
